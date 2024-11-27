@@ -5,8 +5,9 @@
 // import WebViewInternetFail from "@/components/section01/01-05-webview-internet-fail";
 
 // [Section02]
-import RatioScaling from "@/components/section02/02-01-ratio-scaling";
+// import RatioScaling from "@/components/section02/02-01-ratio-scaling";
+import LayoutHeaderGlobal from "@/components/section02/02-02-layout-header-global";
 
 export default function Home() {
-  return <RatioScaling />;
+  return <LayoutHeaderGlobal />;
 }
