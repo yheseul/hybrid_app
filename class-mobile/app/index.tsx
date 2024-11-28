@@ -6,8 +6,9 @@
 
 // [Section02]
 // import RatioScaling from "@/components/section02/02-01-ratio-scaling";
-import LayoutHeaderGlobal from "@/components/section02/02-02-layout-header-global";
+// import LayoutHeaderGlobal from "@/components/section02/02-02-layout-header-global";
+import LayoutHeaderLocal from "@/components/section02/02-03-layout-header-local";
 
 export default function Home() {
-  return <LayoutHeaderGlobal />;
+  return <LayoutHeaderLocal />;
 }
