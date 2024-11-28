@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Layout from "@/commons/layout/02-04-layout-header-transparent";
+import Layout from "@/commons/layout/02-05-layout-footer-contents-short-long";
+// import Layout from "@/commons/layout/02-04-layout-header-transparent";
 // import Layout from "@/commons/layout/02-02-layout-header-global";
 // import Layout from "@/commons/layout/02-03-layout-header-local";
 
