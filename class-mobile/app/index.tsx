@@ -10,8 +10,9 @@
 // import LayoutHeaderLocal from "@/components/section02/02-03-layout-header-local";
 // import LayoutHeaderTransparent from "@/components/section02/02-04-layout-header-transparent";
 // import LayoutFooterContentsShortLong from "@/components/section02/02-05-layout-footer-contents-short-long";
-import WebviewLog from "@/components/section03/03-01-webview-log";
+// import WebviewLog from "@/components/section03/03-01-webview-log";
+import PostMessageWebToApp from "@/components/section03/03-03-post-message-web-app";
 
 export default function Home() {
-  return <WebviewLog />;
+  return <PostMessageWebToApp />;
 }
