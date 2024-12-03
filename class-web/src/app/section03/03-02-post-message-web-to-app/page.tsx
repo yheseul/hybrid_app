@@ -1,3 +1,5 @@
+"use client";
+
 declare const window: Window & {
   ReactNativeWebView: {
     postMessage: (message: string) => void;

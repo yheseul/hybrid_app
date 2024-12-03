@@ -1,4 +1,4 @@
-import { Button, SafeAreaView, StatusBar } from "react-native";
+import { SafeAreaView, StatusBar } from "react-native";
 import WebView from "react-native-webview";
 
 // const myUrl = "http://172.16.0.171:8081"; // 내 핸드폰
@@ -10,13 +10,11 @@ export default function PostMessageWebToApp() {
     <SafeAreaView style={{ flex: 1 }}>
       <StatusBar translucent={false} />
       <WebView
-        source={{
-          uri: `${myUrl}/section03/03-02-post-message-app-web`,
-        }}
+        source={{ uri: `${myUrl}/section03/03-02-post-message-web-to-app` }}
         onMessage={(event) => {
           if (!event.nativeEvent.data) return;
-
-          alert(`web: ${event.nativeEvent.data}`);
+          console.log(`web에서 보내준 데이터: ${event.nativeEvent.data}`);
+          alert(`web에서 보내준 데이터 : ${event.nativeEvent.data}`);
         }}
       />
     </SafeAreaView>
