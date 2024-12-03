@@ -15,7 +15,7 @@ export default function WebviewLog() {
       <StatusBar translucent={false} />
       <WebView
         source={{
-          uri: `${myUrl}/section02/02-05-layout-footer-contents-short-long`,
+          uri: `${myUrl}/section03/03-01-webview-log`,
         }}
       />
       <Button onPress={onPressButton} title="모바일 로그 확인" />

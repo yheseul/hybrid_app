@@ -1,4 +1,5 @@
-export const WebviewLog = (message) => {
+"use server";
+
+export const webviewLog = (message) => {
   console.log(message);
-  return;
 };
